@@ -15,7 +15,7 @@
   - a control sequence for inputs (𝜔<sub>1</sub> and 𝜔<sub>2</sub>) such that the effector C reaches the desired position and the robot body does not collide with any obstacles while moving
 - **Solution**:
   - For the solution's core, two algorithms were used and compared: *Grassfire Algorithm* and *Dijkstra's Algorithm*
-  - For more information about the solution, implementation, results, conclusions and improvements see [this document](documentation/Documentation.pdf) document and [this presentation](documentation/Presentation.pptx)
+  - For more information about the solution, implementation, results, conclusions and improvements see [this document](documentation/Documentation.pdf) and [this presentation](documentation/Presentation.pptx)
 - **Results**:
   - The solution found by the *Dijkstra’s Algorithm* is better (shorter length of the path, smaller execution time), due to the fact that 8 directions are considered, instead of 4 directions considered by the *Grassfire Algorithm*), but the memory used is higher (32 Kbytes instead of 528 Kbytes for a resolution of the Configuration Space of 0.1 rad)
   - For the visual results see [this](documentation/Grassfire_Fast.mp4) and [this](documentation/Grassfire_Motion_Fast.mp4) videos for the *Grassfire Algorithm* and [this](documentation/Dijkstra_Fast.mp4) and [this](documentation/Dijkstra_Motion_Fast.mp4) videos for the *Dijkstra’s Algorithm*
